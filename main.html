@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun" ></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+        <h3 class="style__switcher-title">theme colors</h3>
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-1" class="color-2 color"></label>
+            <label for="color-1" class="color-3 color"></label>
+            <label for="color-1" class="color-4 color"></label>
+            <label for="color-1" class="color-5 color"></label>
+            <label for="color-1" class="color-6 color"></label>
+            <label for="color-1" class="color-7 color"></label>
+            <label for="color-1" class="color-8 color"></label>
+            <label for="color-1" class="color-9 color"></label>
+            <label for="color-1" class="color-1 color"></label>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="main.html" class="nav__logo">Shahd</a>
+            <ul class="nav__list">
+                <li class="nav__items">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#about" class="nav__link ">About</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#qualification" class="nav__link ">Experience</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#services" class="nav__link ">Services</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#works " class="nav__link ">protfolio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contact" class="nav__link ">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content"><span class="home__small">Hello</span>
+                    <h1 class="home__title"><span>I'm </span>Shahd <br>a <span>FULLSTACK Developer</span></h1>
+                    <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nihil.
+                    </p>
+                    <div class="home__btns">
+                        <a href="#contect" class="btn">Hire Me</a>
+                        <a href="#protfolio" class="btn btn__transparent">Protfolio</a>
+                    </div>
+                </div>
+                <div class="home__img-wrapper">
+                    <img src="img/profile.png" alt="loading" class="home__img">
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="img/about.png" alt="loading" class="about__img">
+                    <img src="img/about.png" alt="loading" class="about__img">
+                    <img src="img/about.png" alt="loading" class="about__img">
+                    <img src="img/about.png" alt="loading" class="about__img">
+                </div>
+                <div class="about__content">
+                    <h2 class="section__title" data-title="who am i?"> I'm Shahd Ibrahim, a visual FULLSTACK Developer
+                    </h2>
+                    <p class="about__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+                        ipsam consectetur commodi eos quo eum necessitatibus minima iste amet nobis.</p>
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name</h3>
+                            <span class="data__description">Shahd Ibrahim</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Age</h3>
+                            <span class="data__description">22 years</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">From</h3>
+                            <span class="data__description">Assuit</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Email</h3>
+                            <span class="data__description about__link">shahdibrahim1234567890@gmail.com</span>
+                        </li>
+                    </ul>
+                    <div class="about__bottom">
+                        <a href="" class="btn">Download Cv</a>
+                        <div class="about__social-links">
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+            <div class="resume__container container grid">
+                <div class="resume__group">
+                    <h3 class="resume__heading">
+                        Education
+                    </h3>
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Backend Programing</h3>
+                                    <span class=".resume__date">2024-2025</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle"> lviv national Academyof Arts</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Faculty of Computers and Information</h3>
+                                    <span class=".resume__date">2020-2024</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">IT Future</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">high school</h3>
+                                    <span class=".resume__date">2017-2020</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume__group">
+                    <h3 class="resume__heading">
+                        Experience
+                    </h3>
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Frontend head & Manager</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Visual Studio Code</h3>
+                                    <span class=".resume__date">2024-PRESENT</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Backend Developer</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Visual Studio</h3>
+                                    <span class=".resume__date">2020-2024</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Plugins Developer</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Fiverr.com</h3>
+                                    <span class=".resume__date">2024-2025</span>
+                                </div>
+                                <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Aspernatur, repellendus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section " id="services">
+            <h2 class="section__title title-center" data-title="Services">What I do For you</h2>
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+                    <h3 class="services__title">UI/UX Design</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">01</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h3 class="services__title">Wep Development</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">02</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">03</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">04</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">05</span>
+
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description">9 months of experience in the field.</p>
+                    <span class="services__no">06</span>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section">
+            <h2 class="section__title title-center" data-title="My Talent">Professional Skills</h2>
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">.NET</h3>
+                        <span class="skills__no">85%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 85%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">JavaScript</h3>
+                        <span class="skills__no">75%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 75%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">WordPress</h3>
+                        <span class="skills__no">90%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 90%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">HTML & CSS</h3>
+                        <span class="skills__no">75%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 75%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Adobe XD</h3>
+                        <span class="skills__no">80%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Angular</h3>
+                        <span class="skills__no">70%</span>
+                    </div>
+                    <p class="skills__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+                        minus.</p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 70%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="works section" id="works">
+            <h2 class="section__title title-center" data-title="My protfolio">Recent Works</h2>
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="img/project-img-1.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Wep Design</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="img/project-img-2.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Android App</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="img/project-img-3.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">PhotoShop</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="img/project-img-4.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">UI\UX design</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="img/project-img-5.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Wep Design</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="img/project-img-6.jpg" alt="loading" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Backend Developer</h3>
+                        <span class="work__description">This is a short description</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials section">
+            <h2 class="section__title title-center" data-title="TestImonials">What My Clients Say</h2>
+            <div class="testimonials__container container grid">
+                <div class="testimonials__item">
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum atque praesentium quod?
+                        Consectetur repellendus consequatur rem ducimus, sequi labore quos corrupti iusto accusantium
+                        blanditiis quisquam, porro temporibus nobis laborum. Consectetur.
+                    </p>
+                    <div class="testimonials__data">
+                        <img src="img/testimonial-1.jpg" alt="" class="testimonials__img">
+                    </div>
+                    <div>
+                        <h3 class="testimonials__name">John Mitchell</h3>
+                        <span class="testimonials__identity">Fantastic experience! </span>
+                    </div>
+                </div>
+                <div class="testimonials__item">
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum atque praesentium quod?
+                        Consectetur repellendus consequatur rem ducimus, sequi labore quos corrupti iusto accusantium
+                        blanditiis quisquam, porro temporibus nobis laborum. Consectetur.
+                    </p>
+                    <div class="testimonials__data">
+                        <img src="img/testimonial-2.jpg" alt="" class="testimonials__img">
+                    </div>
+                    <div>
+                        <h3 class="testimonials__name">Emily Watson</h3>
+                        <span class="testimonials__identity">great design </span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get IN Touch">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <span class="contact__data">+125-45-67-89</span>
+                        </div>
+
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email Us</h3>
+                            <span class="contact__data">shahdibrahim1234567890@gmail.com</span>
+                        </div>
+
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Assuit ,Manfault</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="Email" placeholder="email" class="input__control">
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="subject" class="input__control">
+                    </div>
+                    <div class="form__input">
+                        <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+                            class="input__control textarea"></textarea>
+                        <button class="btn contact__btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <p class="footer__copyright">&copy; 2024 Shahd.All Rights Reserved</p>
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
